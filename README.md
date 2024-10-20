@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Expense-Tracker-React
 =======
 # React + Vite
@@ -14,3 +15,6 @@ Currently, two official plugins are available:
 =======
 # Expense-Tracker-React
 >>>>>>> 5c1b30b8512cee1b43a20ccef19fe518b70695c1
+=======
+# Financial-Calculator
+>>>>>>> a1dfe198c14b1819b83e2013ed3639375e99f5f3
