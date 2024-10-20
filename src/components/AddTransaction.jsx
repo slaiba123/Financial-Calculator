@@ -50,7 +50,7 @@ const AddTransaction = () => {
           onClick={() => handleClick('Income')}
           className={`w-[170px] h-[80px] 
             bg-[rgba(217,231,229,1)] 
-            text-${clickedButton === 'Income' ? 'black font-bold' : 'text-[#767676]'} 
+            text-${clickedButton === 'Income' ? 'black font-bold' : '[#767676]'} 
             border-2
             ${clickedButton === 'Income' ? 'border-[#42887C]' : 'border-transparent'} 
             rounded-lg 
@@ -64,7 +64,7 @@ const AddTransaction = () => {
           className={`w-[170px] h-[80px] 
           bg-[#E6E2E6]
             ml-[20px]
-            text-${clickedButton === 'Expense' ? 'black font-bold' : 'text-[#767676]'} 
+            text-${clickedButton === 'Expense' ? 'black font-bold' : '[#767676]'} 
             border-2
             ${clickedButton === 'Expense' ? 'border-gray-700' : 'border-transparent'} 
             rounded-lg 
