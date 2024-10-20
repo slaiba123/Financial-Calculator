@@ -1,0 +1,38 @@
+
+  
+  form {
+    display: flex;
+    flex-direction: column; /* Stack form fields and button vertically */
+    gap: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  button {
+    padding: 10px;
+    background-color:rgba(255, 199, 39, 1);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+  /* Add this to your CSS file for custom scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Round scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color when hovering over scrollbar thumb */
+}
+
