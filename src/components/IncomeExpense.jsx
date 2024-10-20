@@ -20,7 +20,7 @@ const IncomeExpense = () => {
         className="w-[50vw]   h-[130px] mb-[24px] sm:w-[610px] sm:ml-[135px] pt-[24px] pr-[24px] pb-[24px] pl-[24px] rounded-[8px] bg-[rgba(217,231,229,1)] sm:mx-0"
       > 
         <img 
-          src="../icons/income.png" 
+          src="/icons/income.png" 
           alt="Income Icon" 
           className="w-8 h-8 mb-2" 
         />
@@ -35,7 +35,7 @@ const IncomeExpense = () => {
         className="w-[50vw] ml-2 h-[130px] mb-[24px] sm:w-[610px] sm:ml-[20px] sm:mr-[135px] pt-[24px] pr-[20px] pb-[24px] pl-[24px] rounded-[8px] bg-[#E6E2E6] sm:mx-0 p-4"
       >
         <img 
-          src="../icons/exp.png" 
+          src="/icons/exp.png" 
           alt="Expense Icon" 
           className="w-8 h-8 mb-2" 
         />
