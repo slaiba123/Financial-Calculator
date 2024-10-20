@@ -42,7 +42,7 @@ const TransactionList = () => {
                   onClick={() => deleteTransaction(transaction.id)}
                   className=" bg-transparent text-red-500 hover:text-red-700"
                 >
-                  <img src="../icons/bin.png" alt="Delete Icon"/>
+                  <img src="/icons/bin.png" alt="Delete Icon"/>
                 </button>
               </div>
             </div>
