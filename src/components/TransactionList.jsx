@@ -49,7 +49,7 @@ const TransactionList = () => {
 
             <div className="flex flex-col">
               <span className="text-2xl font-bold text-gray-900 pb-2">
-                ${Math.abs(transaction.amount)}
+               ${new Intl.NumberFormat().format(Math.abs(transaction.amount))}
               </span>
               {/* Dynamically displaying transaction description and month */}
               <p className="text-[#4F4F4F]">
